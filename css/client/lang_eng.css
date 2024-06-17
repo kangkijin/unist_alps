@@ -1,0 +1,420 @@
+@charset "utf-8";
+
+/*=================== 영문 .lang_eng ===================*/
+
+/* 공통 */
+.lang_eng .btn_search, .lang_eng .btn_detail, .lang_eng .btn_refresh {
+    padding: 0 5px;
+    font-size: 1.4rem; letter-spacing: -0.07em;
+    background-image: none;
+}
+.lang_eng .search_box3 .btn_detail {
+    font-size: 1.4rem !important; letter-spacing: -0.07em !important;
+}
+.lang_eng .search_box3 .btn_detail::after {
+    display: none;
+}
+.lang_eng .main_tit {
+    font-size: 1.8rem;
+}
+
+.lang_eng .search_box4 {
+    padding-left: 400px;
+}
+.lang_eng .search_box4 .select_area .select_form {
+    width: 180px;
+}
+
+.lang_eng .btn_refresh, .lang_eng .btn_search {
+    font-size: 1.4rem;
+}
+
+.lang_eng .search_box3 .btn_detail {
+    font-size: 1.4rem; letter-spacing: -0.05em;
+}
+.lang_eng .search_box3 .btn_detail::after {
+    display: none;
+}
+
+.lang_eng .gnb_1depth > a > span {
+    font-size: 1.4rem;
+}
+.lang_eng .gnb_2depth {
+    margin-left: -105px;
+    width: 210px;
+}
+.lang_eng .gnb_2depth a {
+    font-size: 1.3rem;
+}
+.lang_eng .tab_list {
+    white-space: nowrap;
+    overflow-x: auto; 
+}
+
+.lang_eng .lnb_list li a {
+    font-size: 1.4rem;
+}
+
+/* 테이블 */
+.lang_eng .tbl table {
+    font-size: 1.2rem;
+}
+.lang_eng .tbl table button {
+    font-size: 1.2rem;
+}
+
+/* 메인 */
+.lang_eng .mainmyinfo_wrap .img_wrap {
+    top: 30px;
+    width: 50px; height: 50px;
+}
+.lang_eng .mainmyinfo_wrap .name {
+    padding-left: 60px;
+}
+.lang_eng .mainau_wrap .au_status li {
+    font-size: 1.05rem;
+}
+.lang_eng .maincapa_wrap .main_tit {
+    padding-top: 15px;
+    font-size: 1.8rem;
+}
+.lang_eng .mainacademic_wrap a {
+    font-size: 1.6rem;
+}
+.lang_eng .mainservice_wrap a {
+    font-size: 1.35rem; line-height: 1.2em;
+}
+
+.postgraduate .lang_eng .maingrade_wrap {
+    padding-left: 10px; padding-right: 10px;
+}
+.lang_eng .maingrade_wrap .tbl_col table thead th, .lang_eng .maingrade_wrap .tbl table tbody th, .lang_eng .maingrade_wrap .tbl table tbody td {
+    font-size: 1.1rem;
+}
+
+.lang_eng .maincalendar_wrap .fc .fc-toolbar-title {
+    font-size: 1.6rem;
+}
+.lang_eng .maincalendar_wrap .fc .fc-toolbar.fc-header-toolbar .fc-toolbar-chunk .fc-today-button {
+    width: 200px;
+}
+.lang_eng .maincalendar_wrap .fc .fc-toolbar.fc-header-toolbar .fc-toolbar-chunk .fc-today-button::after {
+    content: "Move to current month";  
+    height: auto;
+    font-size: 1.3rem;
+}
+.lang_eng .mainfaq_wrap .main_tit {
+    font-size: 1.8rem;
+}
+
+.lang_eng .perform_list li {
+    padding: 15px;
+    font-size: 1.5rem;
+    letter-spacing: -0.07em;
+}
+.lang_eng .postgraduate .mainservice_wrap li a {
+    font-size: 1.6rem;
+} 
+
+/* 학업설계 - 학업설계 소개 */
+.lang_eng .process_box > div strong {
+    font-size: 1.5rem; letter-spacing: -0.05em;
+}
+.lang_eng .process_box > div p {
+    padding-right: 20px;
+    font-size: 1.4rem;
+}
+
+/* 교과 - 인턴십 */
+.lang_eng .internship_list > li > a {
+    width: 135px; height: 135px;
+    font-size: 1.4rem;
+}
+
+/* 교과 - 학제전공 */
+.lang_eng .interdis_box > strong {
+    font-size: 1.6rem;
+}
+.lang_eng .interdis_box li {
+    font-size: 1.5rem;
+}
+
+/* 교과 - 연구활동 */
+.lang_eng .research_list li a > strong {
+    font-size: 1.6rem;
+}
+.lang_eng .research_list li a > div {
+    min-height: 160px;
+}
+
+/* 비교과 - 비교과 소개 */
+.lang_eng .nunsubject_intro {
+    background-image: url(../../images/client/sub/bg_nunsubject_en.png);
+}
+.lang_eng .nunsubject_intro li p {
+    font-size: 1.3rem;
+}
+.lang_eng .subject_intro {
+    background-image: url(../../images/client/sub/bg_subject_en.png);
+}
+.lang_eng .subject_intro li.culture {
+    top: 171px;
+}
+.lang_eng .subject_intro li.major {
+    top: 360px;
+}
+.lang_eng .subject_intro li.free {
+    top: 540px;
+}
+.lang_eng .subject_intro li.interdis {
+    top: 168px;
+}
+.lang_eng .subject_intro li.intern {
+    top: 360px;
+}
+.lang_eng .subject_intro li.research {
+    top: 545px;
+}
+
+/* 비교과 - 리더십 */
+.lang_eng .joincount_wrap > div > div strong {
+    line-height: 1.2em; font-size: 1.2rem;
+}
+
+/* 비교과 - 모교방문 입학설명회 */
+.lang_eng .myschool_box > div > div {
+    min-height: 270px;
+}
+.lang_eng .myschool_box > div > div > strong {
+    margin-bottom: 5px;
+}
+.lang_eng .myschool_box ul li {
+    display: block;
+}
+.lang_eng .myschool_box ul li strong {
+    display: block;
+    width: auto;
+}
+
+/* 비교과 - pre-unistar */
+.lang_eng .unistar_box {
+    background-image: url(../../images/client/sub/bg_preunistar.png);
+}
+.lang_eng .unistar_box li > div {
+    padding: 0 50px;
+    font-size: 1.3rem;
+}
+
+/* 핵심역량 - 핵심역량 진단 소개 */
+.lang_eng .corecapa {
+    background-image: url(../../images/client/sub/bg_corecapaintro_en.png);
+}
+.lang_eng .corecapa .tit {
+    width: 300px; max-width: 100%;
+}
+.lang_eng .corecapa li strong {
+    font-size: 1.6rem;
+}
+.lang_eng .corecapa li.capa1 {
+    top: 33px;
+}
+.lang_eng .corecapa li.capa2 {
+    top: 27px;
+}
+.lang_eng .corecapa li.capa3 {
+    top: 196px;
+}
+.lang_eng .corecapa li.capa4 {
+    top: 196px;
+}
+.lang_eng .corecapa li.capa5 {
+    top: 354px;
+}
+.lang_eng .corecapa li.capa6 {
+    top: 361px;
+}
+
+.lang_eng .capatest {
+    background-image: url(../../images/client/sub/bg_capatestintro_en.png);
+}
+
+.lang_eng .pointcapa_list {
+    margin: 20px 70px;
+}
+.lang_eng .capa_infowrap {
+    padding-left: 240px;
+}
+.lang_eng .capa_infowrap > strong {
+    left: 30px;
+}
+
+/* 핵심역량 - 핵심역량 진단 */
+.lang_eng .test_guide li strong {
+    font-size: 1.4rem;
+}
+.lang_eng .test_guide li p {
+    font-size: 1.3rem; line-height: 1.2em;
+}
+.lang_eng .testdo_list .btn {
+    font-size: 1.5rem; line-height: 1.2em;
+}
+
+/* 상담 - 상담 소개 */
+.lang_eng .counsel_intro {
+    background-image: url(../../images/client/sub/bg_counselintro_eng.png);
+}
+
+.lang_eng .postgraduate .counsel_intro {
+    background-image: url(../../images/client/sub/bg_counselintro2_en.png);
+}
+
+/* 상담 - 지도교수 상담 */
+.lang_eng .counsel_box {
+    padding: 20px;
+}
+.lang_eng .counsel_box .section_tit_md, .lang_eng .counsel_box .section_tit_sm {
+    position: static;
+    margin-bottom: 10px;
+}
+
+/* My alps */
+.lang_eng .subcalendar_wrap > ul {
+    position: static;
+    margin-bottom: 5px;
+    justify-content: right;
+}
+
+.lang_eng .employ_card dd > strong {
+    padding: 0 4px;
+}
+
+@media screen and (max-width: 1279px) {
+
+    /* 메인 1279 */
+    .lang_eng .perform_list li {
+        font-size: 2rem;
+    }
+    .lang_eng .perform_list li strong {
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+    /* 공통 1024 */
+    .lang_eng .search_box4 {
+        padding-left: 340px;
+    }
+    .lang_eng .search_box4 .select_area .select_form {
+        width: 150px;
+    }
+
+    .lang_eng .gnb_1depth {
+        margin-right: 15px;
+    }
+
+    .lang_eng .gnb_2depth {
+        width: 100%;
+    }
+
+    /* 메인 1024 */
+    .lang_eng .perform_list li {
+        font-size: 1.6rem;
+    }
+
+    /* 핵심역량 - 핵심역량 진단 소개 1024 */
+    .lang_eng .pointcapa_list {
+        margin: 20px 0;
+    }
+
+    /* 비교과 - pre-unistar 1024 */
+    .lang_eng .unistar_box li > div {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    /* 공통 768 */
+    .lang_eng .btn_search {
+        font-size: 0;
+        background-image: url(../../images/client/formstyle/btn_search.png);
+    }
+
+    .lang_eng .search_box4 {
+        padding-left: 20px;
+    }
+
+    /* 학업설계 - 학업설계 소개 768 */
+    .lang_eng .process_box > div p {
+        padding-right: 0;   
+    }
+
+    /* 교과 - 학제 전공 768 */
+    .lang_eng .comptype_list li {
+        display: block;
+        padding: 0;
+        height: auto;
+	}
+	.lang_eng .comptype_list li strong {
+        padding: 10px 10px 5px;
+        width: 100%; height: auto;
+	}
+	.lang_eng .comptype_list li p {
+        padding: 10px;
+		text-align: center;
+	}
+
+    /* 상담 - 지도교수 상담 768 */
+    .lang_eng .counsel_box {
+        padding: 15px;
+    }
+
+     /* 핵심역량 - 핵심역량 진단 소개 768 */
+    .lang_eng .capa_infowrap {
+        padding-left: 15px;
+    }
+
+    /* 비교과 - 모교방문 입학설명회 768 */
+    .lang_eng .myschool_box > div > div {
+        min-height: auto;
+    }
+
+}
+
+@media screen and (max-width:690px) {
+
+    /* 메인 690 */
+    .lang_eng .mainmyinfo_wrap .name {
+        padding-left: 0;
+    }
+    .lang_eng .mainmyinfo_wrap .img_wrap {
+        top: inherit;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    /* 공통 480 */
+    .lang_eng .search_box4 {
+        padding-left: 15px;
+    }
+
+    /* 메인페이지 480 */
+	.lang_eng .mainservice_wrap a {
+        font-size: 1.4rem;
+    }
+
+    .maincapa_list li {
+        margin-right: 15px;
+    }
+
+    /* 교과 - 인턴십 480 */
+    .lang_eng .internship_list > li > a {
+        width: 100%;  height: auto;
+    }
+
+    /* My alps - 맞춤정보 및 일정 480 */
+    .lang_eng .subcalendar_wrap > ul {
+        display: block;
+    }
+}
